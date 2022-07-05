@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MvvmDemo</string>
+    <string name="textview">TextView</string>
+</resources>

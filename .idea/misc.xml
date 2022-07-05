@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/RahulCts/MvvmDemo/app/src/main/res/layout/activity_main.xml" value="0.15602836879432624" />
+        <entry key="..\:/Users/Dell/Downloads/MvvmDemo/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Downloads/MvvmDemo/app/src/main/res/layout/activity_view_details.xml" value="0.1921875" />
+        <entry key="..\:/Users/Dell/Downloads/MvvmDemo/app/src/main/res/layout/activity_view_login_details.xml" value="0.1921875" />
+        <entry key="..\:/Users/Dell/Downloads/MvvmDemo/app/src/main/res/layout/movie_list.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Downloads/MvvmDemo/app/src/main/res/layout/shimmer_layout.xml" value="0.1921875" />
+        <entry key="..\:/Users/Dell/Downloads/MvvmDemo/app/src/main/res/layout/shimmer_list_layout.xml" value="0.6613372093023255" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.10461956521739131" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

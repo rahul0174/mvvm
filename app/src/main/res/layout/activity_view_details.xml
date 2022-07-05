@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+    <variable
+        name="countries"
+        type="com.example.model.Countries" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ViewDetailsActivity">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar1"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            tools:ignore="MissingConstraints" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{countries.name}"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="127dp"
+            tools:ignore="MissingConstraints"
+            />
+        <TextView
+            android:id="@+id/textViewCode"
+            android:layout_below="@id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{String.valueOf(countries.countryId)}"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="167dp"
+            tools:layout_editor_absoluteY="198dp"
+            tools:ignore="MissingConstraints"
+            />
+        <TextView
+            android:id="@+id/textViewCountry"
+            android:layout_below="@id/textViewCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{String.valueOf(countries.phonecode)}"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="264dp"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:hint="Login password"
+            android:layout_margin="20dp"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:layout_centerInParent="true"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/submitBtn"
+            android:text="submit"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="20dp"
+            />
+    </RelativeLayout>
+</layout>
